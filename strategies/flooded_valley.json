@@ -1,0 +1,201 @@
+[
+    {
+        "id": 0,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 204,
+            "y": 526
+        }
+    },
+    {
+        "id": 1,
+        "name":"Monkey Sub",
+        "position": {
+            "x": 737,
+            "y": 282
+        }
+    },
+    {
+        "hero": 1080,
+        "position": {
+            "x": 400,
+            "y": 300
+        }
+    },
+    {
+        "id": 2,
+        "name":"Monkey Sub",
+        "position": {
+            "x": 741,
+            "y": 340
+        }
+    },
+    {
+        "id": 3,
+        "name":"Monkey Sub",
+        "position": {
+            "x": 737,
+            "y": 235
+        }
+    },
+    {
+        "id": 1,
+        "upgrades": "001"
+    },
+    {
+        "id": 2,
+        "upgrades": "001"
+    },
+    {
+        "id": 3,
+        "upgrades": "001"
+    },
+    {
+        "id": 4,
+        "name":"Monkey Buccaneer",
+        "position": {
+            "x": 712,
+            "y": 124
+        }
+    },
+    {
+        "id": 4,
+        "upgrades": "003"
+    },
+    {
+        "id": 4,
+        "upgrades": "023"
+    },
+    {
+        "id": 5,
+        "name":"Monkey Buccaneer",
+        "position": {
+            "x": 712,
+            "y": 124
+        }
+    },
+    {
+        "id": 5,
+        "upgrades": "003"
+    },
+    {
+        "id": 5,
+        "upgrades": "023"
+    },
+    {
+        "id": 1,
+        "upgrades": "202"
+    },
+    {
+        "id": 2,
+        "upgrades": "202"
+    },
+    {
+        "id": 3,
+        "upgrades": "202"
+    },
+
+    {
+        "id": 1,
+        "upgrades": "203"
+    },
+    {
+        "id": 2,
+        "upgrades": "203"
+    },
+    {
+        "id": 3,
+        "upgrades": "203"
+    },
+
+    {
+        "id": 1,
+        "upgrades": "204"
+    },
+    {
+        "id": 2,
+        "upgrades": "204"
+    },
+    {
+        "id": 3,
+        "upgrades": "204"
+    },
+
+    {
+        "id": 6,
+        "name":"Monkey Sub",
+        "position": {
+            "x": 789,
+            "y": 243
+        }
+    },
+    {
+        "id": 6,
+        "upgrades": "204"
+    },
+
+    {
+        "id": 7,
+        "name":"Monkey Sub",
+        "position": {
+            "x": 795,
+            "y": 335
+        }
+    },
+    {
+        "id": 7,
+        "upgrades": "204"
+    },
+
+    {
+        "id": 8,
+        "name":"Monkey Sub",
+        "position": {
+            "x": 1011,
+            "y": 200
+        }
+    },
+    {
+        "id": 8,
+        "upgrades": "204"
+    },
+
+    {
+        "id": 9,
+        "name":"Monkey Sub",
+        "position": {
+            "x": 1011,
+            "y": 300
+        }
+    },
+    {
+        "id": 9,
+        "upgrades": "204"
+    },
+
+    {
+        "id": 10,
+        "name":"Monkey Sub",
+        "position": {
+            "x": 1011,
+            "y": 400
+        }
+    },
+    {
+        "id": 10,
+        "upgrades": "230"
+    },
+
+    {
+        "id": 11,
+        "name":"Monkey Sub",
+        "position": {
+            "x": 1011,
+            "y": 500
+        }
+    },
+    {
+        "id": 11,
+        "upgrades": "230"
+    }
+]

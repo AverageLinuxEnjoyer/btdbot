@@ -1,0 +1,130 @@
+[
+    {
+        "id": 0,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 276,
+            "y": 107
+        }
+    },
+    {
+        "id": 1,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 370,
+            "y": 303
+        }
+    },
+    {
+        "id": 2,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 253,
+            "y": 466
+        }
+    },    
+    {
+        "hero": 1080,
+        "position": {
+            "x": 517,
+            "y": 48
+        }
+    },
+    {
+        "id": 3,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 600,
+            "y": 300
+        }
+    },
+    {
+        "id": 4,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 559,
+            "y": 575
+        }
+    },
+    {
+        "id": 1,
+        "upgrades": "022"
+    },
+    {
+        "id": 2,
+        "upgrades": "022"
+    },
+    {
+        "id": 3,
+        "upgrades": "220"
+    },
+    {
+        "id": 4,
+        "upgrades": "220"
+    },
+    {
+        "id": 1,
+        "upgrades": "024"
+    },
+    {
+        "id": 2,
+        "upgrades": "024"
+    },
+    {
+        "id": 3,
+        "upgrades": "320"
+    },
+    {
+        "id": 4,
+        "upgrades": "320"
+    },
+    {
+        "id": 5,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 1041,
+            "y": 544
+        }
+    },
+    {
+        "id": 5,
+        "upgrades": "320"
+    },
+    {
+        "id": 6,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 1041,
+            "y": 444
+        }
+    },
+    {
+        "id": 6,
+        "upgrades": "320"
+    },
+    {
+        "id": 7,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 1041,
+            "y": 344
+        }
+    },
+    {
+        "id": 5,
+        "upgrades": "320"
+    },
+    {
+        "id": 8,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 1041,
+            "y": 244
+        }
+    },
+    {
+        "id": 8,
+        "upgrades": "320"
+    }
+
+]

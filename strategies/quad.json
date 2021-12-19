@@ -1,0 +1,163 @@
+[
+    {
+        "id": 0,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 273,
+            "y": 583
+        }
+    },
+    {
+        "id": 1,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 331,
+            "y": 137
+        }
+    },
+    {
+        "id": 2,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 377,
+            "y": 146
+        }
+    },
+    {
+        "id": 3,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 344,
+            "y": 176
+        }
+    },
+    {
+        "hero": 1080,
+        "position": {
+            "x": 817,
+            "y": 48
+        }
+    },
+    {
+        "id": 4,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 388,
+            "y": 186
+        }
+    },
+    {
+        "id": 1,
+        "upgrades": "022"
+    },
+    {
+        "id": 2,
+        "upgrades": "022"
+    },
+    {
+        "id": 3,
+        "upgrades": "202"
+    },
+    {
+        "id": 4,
+        "upgrades": "120"
+    },
+    {
+        "id": 1,
+        "upgrades": "024"
+    },
+    {
+        "id": 2,
+        "upgrades": "024"
+    },
+    {
+        "id": 4,
+        "upgrades": "320"
+    },
+    {
+        "id": 6,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 304,
+            "y": 198
+        }
+    },
+    {
+        "id": 6,
+        "upgrades": "320"
+    },
+    {
+        "id": 7,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 278,
+            "y": 244
+        }
+    },
+    {
+        "id": 7,
+        "upgrades": "320"
+    },
+
+    {
+        "id": 8,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 249,
+            "y": 206
+        }
+    },
+    {
+        "id": 8,
+        "upgrades": "320"
+    },
+    {
+        "id": 9,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 218,
+            "y": 39
+        }
+    },
+    {
+        "id": 9,
+        "upgrades": "420"
+    },
+    {
+        "id": 10,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 196,
+            "y": 206
+        }
+    },
+    {
+        "id": 10,
+        "upgrades": "420"
+    },
+    {
+        "id": 11,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 200,
+            "y": 160
+        }
+    },
+    {
+        "id": 11,
+        "upgrades": "420"
+    },
+    {
+        "id": 12,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 247,
+            "y": 93
+        }
+    },
+    {
+        "id": 12,
+        "upgrades": "420"
+    }
+
+]
