@@ -16,6 +16,20 @@ class MemoryScanner:
         self.process.sendline("option scan_data_type float64")
         self.process.expect('>')
 
+    def reset(self):
+        self.process.sendline("exit")
+        
+        self.start_money = 850
+        self.first_round = 1
+        
+        self.process = pexpect.spawn("scanmem")
+        self.process.expect("scanmem version")
+        self.process.sendline(f"pid {self.__get_pid()}")
+        self.process.expect("info: maps file located")
+
+        self.process.sendline("option scan_data_type float64")
+        self.process.expect('>')
+
     def __get_pid(self):
         import subprocess
 

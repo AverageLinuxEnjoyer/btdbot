@@ -1,0 +1,59 @@
+[
+    {
+        "id": 0,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 295,
+            "y": 324
+        }
+    },
+    {
+        "id": 1,
+        "name":"Monkey Village",
+        "position": {
+            "x": 562,
+            "y": 185
+        }
+    },
+    {
+        "id": 1,
+        "upgrades": "202"
+    },
+    {
+        "id": 2,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 624,
+            "y": 171
+        }
+    },
+    {
+        "id": 2,
+        "upgrades": "024"
+    },
+    {
+        "id": 3,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 616,
+            "y": 71
+        }
+    },
+    {
+        "id": 3,
+        "upgrades": "230"
+    },
+    {
+        "id": 4,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 585,
+            "y": 102
+        }
+    },
+    {
+        "id": 4,
+        "upgrades": "230"
+    }
+
+]

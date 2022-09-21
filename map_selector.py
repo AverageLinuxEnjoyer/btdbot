@@ -26,9 +26,9 @@ class MapSelector():
             time.sleep(0.5)
 
             # click on the insta monkeys
-            for i in range(8):
+            for i in range(10):
                 pyautogui.moveTo(
-                    375 + self.win_data["x"] + i * 75,
+                    300 + self.win_data["x"] + i * 75,
                     375 + self.win_data["y"], 0.2
                 )
                 pyautogui.click()
@@ -45,40 +45,47 @@ class MapSelector():
             550 + self.win_data["x"], 630 + self.win_data["y"], 0.2)
         pyautogui.click()
 
-        while True:
-            # click on expert
-            pyautogui.moveTo(
-                900 + self.win_data["x"], 650 + self.win_data["y"], 0.2)
-            pyautogui.click()
+        #click on expert
+        pyautogui.moveTo(
+            900 + self.win_data["x"], 650 + self.win_data["y"], 0.2)
+        pyautogui.click()
 
-            time.sleep(0.5)
+        time.sleep(0.5)
 
-            # locate event icon 1
-            event_icon = pyautogui.locateOnScreen(
-                "res/event_icon.png",
-                region=(
-                    200 + self.win_data["x"],
-                    50 + self.win_data["y"],
-                    950 + self.win_data["x"],
-                    550 + self.win_data["y"]
-                ),
-                confidence=0.9
-            )
+        # while True:
+        #     # click on expert
+        #     pyautogui.moveTo(
+        #         900 + self.win_data["x"], 650 + self.win_data["y"], 0.2)
+        #     pyautogui.click()
 
-            print(event_icon)
+        #     time.sleep(0.5)
 
-            if event_icon is None:
-                continue
-            else:
-                break
+        #     # locate event icon 1
+        #     event_icon = pyautogui.locateOnScreen(
+        #         "res/event_icon.png",
+        #         region=(
+        #             200 + self.win_data["x"],
+        #             50 + self.win_data["y"],
+        #             950 + self.win_data["x"],
+        #             550 + self.win_data["y"]
+        #         ),
+        #         confidence=0.9
+        #     )
 
-        if event_icon is None:
-            raise Exception("Event map couldn't be found")
+        #     print(event_icon)
+
+        #     if event_icon is None:
+        #         continue
+        #     else:
+        #         break
+
+        # if event_icon is None:
+        #     raise Exception("Event map couldn't be found")
 
         x = event_icon.left
         y = event_icon.top
 
-        # check what map has the bonus on it
+        # # check what map has the bonus on it
         expert_maps = [
             "sanctuary", "ravine", "flooded_valley", "infernal",
             "bloody_puddles", "workshop", "quad", "dark_castle",
@@ -103,18 +110,25 @@ class MapSelector():
         pyautogui.click()
 
         if event_map == "sanctuary":
-            # TODO
-            pass
+            # click the easy difficulty
+            pyautogui.moveTo(
+                416 + self.win_data["x"], 282 + self.win_data["y"], 0.2)
+            pyautogui.click()
+            
+            # click deflation
+            pyautogui.moveTo(
+                852 + self.win_data["x"], 311 + self.win_data["y"], 0.2)
+            pyautogui.click()
+        else:
+            # click the medium difficulty
+            pyautogui.moveTo(
+                635 + self.win_data["x"], 377 + self.win_data["y"], 0.2)
+            pyautogui.click()
 
-        # click the medium difficulty
-        pyautogui.moveTo(
-            635 + self.win_data["x"], 377 + self.win_data["y"], 0.2)
-        pyautogui.click()
-
-        # click standard
-        pyautogui.moveTo(
-            420 + self.win_data["x"], 400 + self.win_data["y"], 0.2)
-        pyautogui.click()
+            # click standard
+            pyautogui.moveTo(
+                420 + self.win_data["x"], 400 + self.win_data["y"], 0.2)
+            pyautogui.click()
 
         time.sleep(4)
 

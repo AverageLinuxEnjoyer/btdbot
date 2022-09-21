@@ -3,47 +3,39 @@
         "id": 0,
         "name":"Sniper Monkey",
         "position": {
-            "x": 273,
-            "y": 583
+            "x": 887,
+            "y": 593
         }
     },
     {
         "id": 1,
         "name":"Sniper Monkey",
         "position": {
-            "x": 331,
-            "y": 137
-        }
-    },
-    {
-        "id": 15,
-        "name":"Sniper Monkey",
-        "position": {
-            "x": 352,
-            "y": 378
+            "x": 656,
+            "y": 593
         }
     },
     {
         "id": 2,
         "name":"Monkey Buccaneer",
         "position": {
-            "x": 559,
-            "y": 291
+            "x": 484,
+            "y": 314
         }
     },
     {
         "id": 3,
         "name":"Monkey Buccaneer",
         "position": {
-            "x": 564,
-            "y": 436
+            "x": 642,
+            "y": 325
         }
     },
     {
         "hero": 1080,
         "position": {
-            "x": 817,
-            "y": 48
+            "x": 567,
+            "y": 108
         }
     },
     {
@@ -54,8 +46,8 @@
         "id": 4,
         "name":"Sniper Monkey",
         "position": {
-            "x": 313,
-            "y": 228
+            "x": 594,
+            "y": 596
         }
     },
     {
@@ -70,8 +62,8 @@
         "id": 5,
         "name":"Monkey Buccaneer",
         "position": {
-            "x": 656,
-            "y": 375
+            "x": 484,
+            "y": 403
         }
     },
     {
@@ -82,8 +74,8 @@
         "id": 6,
         "name":"Monkey Buccaneer",
         "position": {
-            "x": 462,
-            "y": 370
+            "x": 649,
+            "y": 405
         }
     },
     {
@@ -94,8 +86,8 @@
         "id": 7,
         "name":"Monkey Sub",
         "position": {
-            "x": 612,
-            "y": 304
+            "x": 538,
+            "y": 306
         }
     },
     {
@@ -106,8 +98,8 @@
         "id": 8,
         "name":"Monkey Sub",
         "position": {
-            "x": 506,
-            "y": 305
+            "x": 589,
+            "y": 311
         }
     },
     {
@@ -118,8 +110,8 @@
         "id": 9,
         "name":"Monkey Sub",
         "position": {
-            "x": 607,
-            "y": 396
+            "x": 598,
+            "y": 354
         }
     },
     {
@@ -131,7 +123,7 @@
         "name":"Monkey Sub",
         "position": {
             "x": 515,
-            "y": 383
+            "y": 354
         }
     },
     {
@@ -142,13 +134,37 @@
         "id": 11,
         "name":"Monkey Sub",
         "position": {
-            "x": 562,
-            "y": 343
+            "x": 595,
+            "y": 407
         }
     },
     {
         "id": 11,
         "upgrades": "230"
+    },
+    {
+        "id": 12,
+        "name":"Monkey Sub",
+        "position": {
+            "x": 540,
+            "y": 405
+        }
+    },
+    {
+        "id": 12,
+        "upgrades": "204"
+    },
+    {
+        "id": 13,
+        "name":"Sniper Monkey",
+        "position": {
+            "x": 259,
+            "y": 161
+        }
+    },
+    {
+        "id": 13,
+        "upgrades": "420"
     }
 
 ]

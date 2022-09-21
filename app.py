@@ -12,14 +12,21 @@ class App:
         self.win_data = get_window_data()
         
         self.memory_scanner = MemoryScanner()
-        self.monkey_placer = MonkeyPlacer(self.win_data, "strategy.json")
+        self.monkey_placer = MonkeyPlacer(self.win_data)
         self.map_selector = MapSelector(self.win_data)
+        self.current_map = None
 
     def run(self):
         while True:
-            new_map = self.map_selector.run()
-            self.monkey_placer.reset(f"strategies/{new_map}.json")
+            self.current_map = self.map_selector.run()
+            self.monkey_placer.reset(f"strategies/{self.current_map}.json")
+            self.memory_scanner.reset()
             
+            if self.current_map == "sanctuary":
+                time.sleep(2)
+                pyautogui.click(633,502)
+                time.sleep(2)
+                
             self.playMap()
             
     def check_for_win(self):
@@ -51,12 +58,17 @@ class App:
         
     def playMap(self):
         log("Looking for money address...")
-        starting_money = 850
+        if self.current_map == "sanctuary":
+            starting_money = 40400
+        else:
+            starting_money = 1700
+            
         located = self.memory_scanner.locate_money(value=starting_money)
 
         if not located:
             fallback_monkey_cost = self.monkey_placer.place_fallback_monkey()
             
+
             remaining_money = starting_money-fallback_monkey_cost
             located = self.memory_scanner.locate_money(value=remaining_money)
             

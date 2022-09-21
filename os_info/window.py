@@ -25,3 +25,4 @@ def get_window_data():
 #     y-=data["y"]
 #     print(f"x:{x}, y:{y}")
 #     time.sleep(2)
+    
